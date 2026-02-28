@@ -1,6 +1,6 @@
-package dev.Java10x.CadastroDeNinjas.Missoes;
+package dev.Java10x.CadastroDeninjas.Missoes;
 
-import dev.Java10x.CadastroDeNinjas.Ninjas.NinjaModel;
+import dev.Java10x.CadastroDeninjas.Ninjas.NinjaModel;
 import jakarta.persistence.*;
 
 import java.util.List;
