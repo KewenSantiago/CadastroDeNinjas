@@ -16,5 +16,5 @@ spring:
 #Configurar o flyway
   flyway:
     enabled: true
-    locations: classpath:db/migration
+    locations: classpath:db/migrations
     baseline-on-migrate: true
