@@ -34,9 +34,9 @@ public class NinjaController {
 
 //Procurar ninja por ID (READ)
 
-    @GetMapping("/listarID")
-    public String mostrarTodosOsNinjasPorId() {
-        return "Mostar ninja por ID";
+    @GetMapping("/listar/{id}")
+    public NinjaModel listarNinjasPorId(@PathVariable Long id) {
+        return ninjaService.listarNinjasPorId(id);
     }
 
     //Alterar dados dos ninjas (UPDATE)
