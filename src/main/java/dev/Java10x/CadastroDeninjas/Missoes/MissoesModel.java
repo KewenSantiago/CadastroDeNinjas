@@ -3,11 +3,19 @@ package dev.Java10x.CadastroDeninjas.Missoes;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import dev.Java10x.CadastroDeninjas.Ninjas.NinjaModel;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import java.util.List;
 
 @Entity
 @Table(name = "tb_missoes")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class MissoesModel {
 
     @Id
